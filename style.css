@@ -196,7 +196,7 @@ a:hover {
     width: 10px; /* Smaller size */
     height: 10px; /* Smaller size */
     border-radius: 50%; /* Makes it round */
-    background-color: #a89984; /* Gruvbox grey background 20% dimmer */
+    background-color: #eeeeee; /* Gruvbox grey background 20% dimmer */
     border: none;
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
