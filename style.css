@@ -1,9 +1,9 @@
 :root {
     --color-bg: #ffffff; /* Gruvbox dark hard background */
-    --color-fg: #87697e; /* Gruvbox foreground */
+    --color-fg: #5a7782; /* Gruvbox foreground #87697e */
     --color-link: #444452; /* Gruvbox aqua */
     --color-link-visited: #d3869b; /* Gruvbox purple */
-    --color-link-hover: #ad8ca4; /* Gruvbox orange */
+    --color-link-hover: #916581; /* Gruvbox orange */
     --color-red: #cc241d; /* Gruvbox red for starred links */
 }
 
