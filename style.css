@@ -127,7 +127,7 @@ html::-webkit-scrollbar {
   border: 1px solid rgba(235, 219, 178, 0.2); /* Subtle border using Gruvbox fg with transparency */
   border-radius: 8px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Soft shadow */
-  background-color: rgba(40, 40, 40, 0.8); /* Slightly transparent Gruvbox dark hard background */
+  background-color: rgba(220, 220, 220, 0.8); /* Slightly transparent Gruvbox dark hard background */
   position: relative; /* Needed for positioning the button */
 }
 
