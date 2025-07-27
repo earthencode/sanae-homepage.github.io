@@ -106,7 +106,7 @@
                             if (!urlToOpen.startsWith('http://') && !urlToOpen.startsWith('https://')) {
                                 urlToOpen = `http://${urlToOpen}`;
                             }
-                            document.location.href = `{urlToOpen}`;
+                            document.location.href = urlToOpen
                          //   window.open(urlToOpen, '_blank');
                         } else {
                             document.location.href = `https://www.google.com/search?q=${encodeURIComponent(trimmedQuery)}`;
