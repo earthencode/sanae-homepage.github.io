@@ -1,9 +1,9 @@
 :root {
-    --color-bg: #ffffff; /* Gruvbox dark hard background */
-    --color-fg: #5a7782; /* Gruvbox foreground #87697e */
-    --color-link: #444452; /* Gruvbox aqua */
+    --color-bg: rgba(0, 0, 0, 1); /* Gruvbox dark hard background */
+    --color-fg: rgba(143, 118, 80, 1); /* Gruvbox foreground #87697e */
+    --color-link: rgba(137, 137, 137, 1);
     --color-link-visited: #d3869b; /* Gruvbox purple */
-    --color-link-hover: #916581; /* Gruvbox orange */
+    --color-link-hover: #675438; /* Gruvbox orange */
     --color-red: #cc241d; /* Gruvbox red for starred links */
 }
 
@@ -74,9 +74,9 @@ html::-webkit-scrollbar {
 .gif img {
   max-width: 100%;
   max-height: 100%;
-  height: auto;
-  width: auto;
-  margin-top: 80px; /* Adjusted to pull the image slightly up from 100px */
+  height: 600px;
+  width: 700px;
+  margin-top: 100px; /* Adjusted to pull the image slightly up from 100px */
 }
 
 .head {
@@ -124,10 +124,10 @@ html::-webkit-scrollbar {
   text-align: center;
   box-sizing: border-box;
   padding: 10px; /* Added padding */
-  border: 1px solid rgba(235, 219, 178, 0.2); /* Subtle border using Gruvbox fg with transparency */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Soft shadow */
-  background-color: rgba(220, 220, 220, 0.8); /* Slightly transparent Gruvbox dark hard background */
+  border: 1px solid rgba(143, 118, 80, 0.2); /* Subtle border using Gruvbox fg with transparency */
+  border-radius: 1px; /* Rounded corners */
+  box-shadow: 0 2px 1px rgba(143, 118, 80, 1); /* Soft shadow */
+  background-color: rgba(30, 30, 30, 1); /* Slightly transparent Gruvbox dark hard background */
   position: relative; /* Needed for positioning the button */
 }
 
